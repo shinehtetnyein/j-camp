@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="my">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Schedule</title>
+    <style>
+        body {
+            font-family: "Noto Sans Myanmar", sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .schedule {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .time {
+            font-weight: bold;
+            color: #34495e;
+            width: 35%;
+        }
+
+        .activity {
+            width: 60%;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 600px) {
+            .item {
+                flex-direction: column;
+            }
+
+            .time,
+            .activity {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="schedule">
+            <h2>၁၆.၃.၂၀၂၆ (တနင်္လာနေ့)</h2>
+            <div class="item">
+                <div class="time">3:00 - 4:00</div>
+                <div class="activity">မှတ်ပုံတင်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">4:00 - 4:30</div>
+                <div class="activity">ညနေစာသုံးဆောင်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">4:30 - 5:00</div>
+                <div class="activity">ဝတ်ပြုကိုးကွယ်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">5:00 - 6:00</div>
+                <div class="activity">မိတ်ဆက်ခြင်း၊ အသင်းခွဲခြင်း နှင့် အလံအပ်နှံခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">6:00 - 7:00</div>
+                <div class="activity">ဂိမ်းကစားခြင်း</div>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h2>၁၇.၃.၂၀၂၆ - ၂၀.၃.၂၀၂၆</h2>
+            <div class="item">
+                <div class="time">8:00 - 8:30</div>
+                <div class="activity">နံနက်ဝတ်ပြုကိုးကွယ်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">8:30 - 9:00</div>
+                <div class="activity">မနက်စာသုံးဆောင်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">9:00 - 10:30</div>
+                <div class="activity">သင်ခန်းစာသင်ကြားခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">10:30 - 11:00</div>
+                <div class="activity">သီချင်းသင်ကြားခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">11:00 - 12:00</div>
+                <div class="activity">Special Talk</div>
+            </div>
+            <div class="item">
+                <div class="time">12:00 - 1:00</div>
+                <div class="activity">နေ့လည်စာသုံးဆောင်ခြင်း၊ အနားယူခြင်း၊ လေ့ကျင့်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">1:00 - 2:00</div>
+                <div class="activity">အကသင်ကြားခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">2:00 - 2:30</div>
+                <div class="activity">သီချင်းသင်ကြားခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">2:30 - 3:00</div>
+                <div class="activity">လေ့ကျင့်ချိန်</div>
+            </div>
+            <div class="item">
+                <div class="time">3:00 - 4:00</div>
+                <div class="activity">ဂိမ်းကစားခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">4:00 - 4:30</div>
+                <div class="activity">ရေချိုးချိန်</div>
+            </div>
+            <div class="item">
+                <div class="time">4:30 - 5:00</div>
+                <div class="activity">ညနေစာသုံးဆောင်ချိန်</div>
+            </div>
+            <div class="item">
+                <div class="time">5:00 - 7:00</div>
+                <div class="activity">ညပိုင်းအစီအစဥ်</div>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h2>၂၁.၃.၂၀၂၆ (စနေနေ့)</h2>
+            <div class="item">
+                <div class="time">8:00 - 8:30</div>
+                <div class="activity">နံနက်စာသုံးဆောင်ခြင်း</div>
+            </div>
+            <div class="item">
+                <div class="time">8:30 - 10:30</div>
+                <div class="activity">ပိတ်ပွဲ နှင့် ဆုချီးမြှင့်ခြင်း</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
